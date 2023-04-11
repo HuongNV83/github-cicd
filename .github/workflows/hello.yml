@@ -1,11 +1,12 @@
 name: hello world
 on:
   push:
-    branches:[master]
+    branches:
+      - master
 jobs:
 
   say-hello:
-    running: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - run: echo Xin chao
