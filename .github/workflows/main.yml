@@ -2,7 +2,8 @@ name: Build & deploy Spring applications
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
 jobs:
   build-deploy:
     name: Build and deploy Spring applications
