@@ -5,6 +5,7 @@ on:
 jobs:
 
   say-hello:
-    runs-on: ubuntu-latest
+    running: ubuntu-latest
+
     steps:
       - run: echo Xin chao
